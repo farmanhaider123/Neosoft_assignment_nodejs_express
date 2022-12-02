@@ -1,0 +1,23 @@
+<div class="row row-cols-6 row-cols-md-6 g-6 container1">
+
+    <% for(let p of prods) {%>
+
+        <div class="card1 card g-2 g-lg-3 px-2" style="width: 18rem">
+            <img class="card-img-top1" src="<%= p.image%>" alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">
+                    <%= p.pname%>
+                </h5>
+                <p class="card-text">₹ <%= p.price%>
+                </p>
+                <p class="card-text">
+                    <%= p.description%>
+                </p>
+                <a href="/edit/<%=p._id %>" class="btn btn-primary">edit</a>
+                <a href="/delete/<%=p._id %>" class="btn btn-primary">delete</a>
+            </div>
+        </div>
+
+        <% } %>
+</div>
+</div>
