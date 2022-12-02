@@ -1,0 +1,71 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    script(src='https://kit.fontawesome.com/bdd89edb33.js')
+    link(href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900', rel='stylesheet')
+    link(rel='stylesheet', href='css/style.css')
+    
+    title Flipping Cards
+  body
+    section#section-plans.section-plans
+      
+      .row
+        .col-1-of-3
+          .card
+            .card__side.card__side--front-1
+              .card__title.card__title--1
+                i.fas.fa-paper-plane
+                h4.card__heading Basic
+              .card__details
+                ul
+                  li Cook & chef
+                  li Cleaner
+            .card__side.card__side--back.card__side--back-1
+              .card__cta
+                .card__price-box
+                  p.card__price-only Only
+                  p.card__price-value ₹ 1000/mo*
+                a.btn.btn--white(href='/payments') Select
+        .col-1-of-3
+          .card
+            .card__side.card__side--front-2
+              .card__title.card__title--2
+                i.fas.fa-plane
+                h4.card__heading Plus
+              .card__details
+                ul
+                  li cook & chef
+                  li Baby Sitter
+                  li Cleaner
+                  li Nurse
+            .card__side.card__side--back.card__side--back-2
+              .card__cta
+                .card__price-box
+                  p.card__price-only Only
+                  p.card__price-value ₹ 2500/mo*
+                a.btn.btn--white(href='/payments') Select
+        .col-1-of-3
+          .card
+            .card__side.card__side--front-3
+              .card__title.card__title--3
+                i.fas.fa-rocket
+                h4.card__heading Pro
+              .card__details
+                ul
+                 li cook & chef
+                 li Baby Sitter
+                 li Cleaner
+                 li Nurse
+                 li Driver 
+                 li Driver 
+                 link(rel="alternate", href="rss.xml", type="application/rss+xml", title="RSS") 
+            .card__side.card__side--back.card__side--back-3
+              .card__cta
+                .card__price-box
+                  p.card__price-only Only
+                  p.card__price-value ₹ 4500/mo*
+                a.btn.btn--white(href='/payments') Select
+      

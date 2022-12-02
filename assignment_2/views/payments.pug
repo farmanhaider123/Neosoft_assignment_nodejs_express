@@ -1,0 +1,41 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    script(src='https://kit.fontawesome.com/bdd89edb33.js')
+    link(href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900', rel='stylesheet')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+    style
+      include ../static/style1.css
+  body
+    include includes/nav
+    section(style='background-color:white;')
+      .container.py-5
+        .row.d-flex.justify-content-center
+          .col-md-9.col-lg-7.col-xl-5
+            .card
+              img.card-img-top(src='/static/img/2.jpeg', alt='Black Chair')
+              .card-body
+                .card-title.d-flex.justify-content-between.mb-0
+                  i.fas.fa-paper-plane
+                  h4.card__heading Basic
+                  p.text-muted.mb-0 Basic Membership
+                  p.mb-0 Rs1000
+              .rounded-bottom(style='background-color: white;')
+                .card-body
+                  p.mb-4 Your payment details
+                  .form-outline.mb-3
+                    input#formControlLgXM8.form-control(type='text', placeholder='1234 5678 1234 5678')
+                    label.form-label(for='formControlLgXM8') Card Number
+                  .row.mb-3
+                    .col-6
+                      .form-outline
+                        input#formControlLgExpk8.form-control(type='password', placeholder='MM/YYYY')
+                        label.form-label(for='formControlLgExpk8') Expire
+                    .col-6
+                      .form-outline
+                        input#formControlLgcvv8.form-control(type='password', placeholder='Cvv')
+                        label.form-label(for='formControlLgcvv8') Cvv
+                  button.btn.btn-info.btn-block Order now
+  
