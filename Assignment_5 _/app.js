@@ -179,10 +179,7 @@ app.post("/postregis", (req, res) => {
         .catch((err) => {
           res.render("regis", { error: "User Already Registered" });
         });
-      res.render("upload", {
-        errmsg: "",
-        succmsg:"You have registred sucessfully kindly check your mail to activate your account",
-      });
+      
     }
   });
 });
