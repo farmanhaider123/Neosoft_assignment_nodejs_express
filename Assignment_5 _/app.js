@@ -24,7 +24,7 @@ let transporter = nodemailer.createTransport({
   },
 });
 mongoose
-  .connect("mongodb+srv://farman:farman@cluster0.wumt7.mongodb.net/test/authmongo")
+  .connect("mongodb+srv://farman:<password>@cluster0.wumt7.mongodb.net/test")
   .then((res) => console.log("MongoDB Connected"))
   .catch((err) => console.log("Error : " + err));
 //end
