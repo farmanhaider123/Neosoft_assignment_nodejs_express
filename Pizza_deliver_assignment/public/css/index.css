@@ -1,0 +1,84 @@
+img {
+    height: 99px;
+    margin: 9px;
+}
+.main {
+    display: flex;
+    /* text-align-last: end; */
+    padding-left: 800px;
+    justify-content: center;
+    padding-right: 103px;
+    margin-top: -80px;
+}
+
+
+.signup {
+    margin-left: -112px;
+    background: crimson;
+    width: 100px;
+    color: white;
+    height: 28px;
+    margin-top: -4px;
+}
+
+.nav1 {
+    background: blueviolet;
+    height: 290px;
+}
+.signup {
+    margin-left: -112px;
+    padding: 1px;
+    width: 100px;
+    color: #fff;
+    height: 24px;
+    margin-top: -10px;
+    box-shadow: 0px 0px 0px 2px;
+}
+
+.signin {
+    margin-left: 29px;
+    /* background: #ed143d; */
+    width: 100px;
+    color: #fff;
+    padding: 1px;
+    height: 24px;
+    margin-top: -10px;
+    box-shadow: 0px 0px 0px 2px;
+}
+
+h5.card-header {
+    font-size: 36px;
+}
+
+.card1 {
+    /* box-shadow: -9px 30px 7px 23px; */
+    background: #8a2be2;
+    border-radius: 10px -12px 20px 16px;
+    color: white;
+    text-align: center;
+    width: 741px;
+    margin-left: 124px;
+    height: 238px;
+    margin-top: -122px;
+    border-radius: 36px 37px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+img.card-img-top {
+    height: 368px;
+}
+a.btn.btn-primary {
+    /* box-shadow: 10px 20px 20px -12px; */
+    /* padding-top: 0px; */
+    background: dodgerblue;
+    padding-top: 2px;
+    padding-left: 42px;
+    padding-right: 33px;
+    padding-top: 7px;
+    border-radius: 20px;
+    padding-bottom: 12px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}

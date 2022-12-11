@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{>nav}}
+    <div class="card1">
+        <h5 class="card-header">Pizza Delivery</h5>
+        <div class="card-body">
+            {{#if msghead}}
+            <h2 class="card-text">{{msghead}}</h2>
+            {{/if}}
+            {{#if succmsg}}
+            <h5 class="card-text">{{succmsg}}</h5>
+            {{/if}}
+            <a href="/products" class="btn btn-primary">Go and order some more</a>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
